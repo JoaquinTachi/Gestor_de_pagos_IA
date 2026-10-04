@@ -1,0 +1,38 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Variables y secretos
+.env
+.env.*
+!.env.example
+
+# Base de datos local
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos cargados por usuarios
+comprobante/
+
+# Archivos temporales
+temp/
+output/
+
+# IDE
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+
+# macOS
+.DS_Store
